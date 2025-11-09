@@ -18,7 +18,7 @@ values,vectors=eig(V)
 print(values,vectors)  
 #Calculate PCA  
 P=vectors.T.dot(C.T)  
-print(P)  
+print(P.T)  
 
                                                                    
 
